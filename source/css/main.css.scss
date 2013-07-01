@@ -1,0 +1,136 @@
+
+@import "bootstrap-redu";
+
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/text-shadow";
+@import "compass/css3/font-face";
+@import "compass/typography/text/replacement";
+@import "compass/css3/images";
+
+$white: #fff;
+$black: #000;
+$green1: rgb(82,163,76);
+$green2: rgb(95,190,87);
+$base-font-family:            "Helvetica Neue", Arial, sans-serif !default;
+$museo-sans:                  museo-sans, $base-font-family !default;
+$museo-sans-rounded:          museo-sans-rounded, $museo-sans !default;
+$monospace-font-family:       "Lucida Console", Courier, monospace !default;
+
+
+@include font-face("museo-sans-rounded", font-files("MuseoSansRounded-700.otf"));
+@include font-face("museo-sans-rounded-100", font-files("MuseoSansRounded-100.otf"));
+
+.call-container {
+  background: url("../img/background.png");
+  background-size: auto 100%;
+  margin-top: 40px;
+  padding-bottom: 30px;
+
+  .call {
+    padding-top: 40px;
+  }
+
+  .course-info {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .course-name, .subtitle {
+    color: $white;
+    font-style: normal;
+    line-height: 95%;
+    .textshadow & {
+      @include single-text-shadow(-1px, -1px, 0px, false, rgba(0, 0, 0, .5));
+    }
+  }
+
+  .course-name {
+    font-family: museo-sans-rounded, museo-sans, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-family: museo-sans-rounded-100, museo-sans, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 31px;
+  }
+
+  .button-join {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 270px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-top: 13px;
+
+    .price {
+      opacity: .85;
+      margin-right: 10px;
+      font-family: 'Arial Narrow', Arial, sans-serif;
+
+      &:hover { opacity: 1; }
+    }
+
+    .currency {
+      font-size: 20px;
+      font-weight: normal;
+      margin-right: 5px;
+    }
+
+    .join {
+      font-weight: normal;
+    }
+  }
+
+  .payment {
+    display: block;
+    margin-top: 5px;
+    color: $white;
+    line-height: 30px;
+    .pagseguro {
+      display: inline-block;
+      @include replace-text-with-dimensions("pagseguro.png");
+    }
+    .textshadow & {
+      @include single-text-shadow(-1px, -1px, 0px, false, rgba(0, 0, 0, .5));
+    }
+  }
+
+  .video-wrapper {
+    background: url("../img/video.png") no-repeat;
+    background-size: auto;
+    height: 260px;
+  }
+}
+
+.recommendation-container {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: $museo-sans;
+  margin-bottom: 50px;
+
+  .label {
+    color: $white;
+  }
+  .textshadow & {
+    @include single-text-shadow(1px, 1px, 1px, false, rgba(0, 0, 0, .5));
+  }
+  .cssgradients & {
+    @include background(linear-gradient(top bottom, $green1, $green2));
+  }
+}
+
+.sidebar {
+  .title {
+    @include single-text-shadow(0, 1px, 0, false, #b2b2b2)
+    color: #e6e6e6;
+  }
+}
+
+.footer {
+}
