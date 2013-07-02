@@ -6,6 +6,8 @@
 @import "compass/css3/text-shadow";
 @import "compass/css3/font-face";
 @import "compass/css3/images";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
 
 @import "variables";
 
@@ -118,15 +120,90 @@
 }
 
 .sidebar {
+  @mixin circular-photo($size, $border: 3px) {
+    overflow: hidden;
+    width: $size;
+    height: $size;
+    border: $border solid white;
+
+    .boxshadow & {
+      @include single-box-shadow(rgba(0,0,0,.2), 0, 2px, 6px, 1px);
+    }
+
+    .borderradius & {
+      @include border-radius($size/2);
+    }
+  }
+
   .title {
     @include single-text-shadow(0, 1px, 0, false, #b2b2b2);
-    font-family: museo-sans-rounded-100, museo-sans, "Helvetica Neue", Arial, sans-serif;
+    font-family: $museo-sans-rounded-100;
     font-size: 37px;
     border-bottom: 1px solid $gray3;
     padding-bottom: 15px;
-    margin-bottom: 15px;
-    color: $gray1;
+    margin-bottom: 20px;
+    color: $gray3;
   }
+
+  .teacher-photo {
+    @include circular-photo(135px);
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .team-caption {
+    text-align: center;
+    color: $gray5;
+    font-family: $museo-sans;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+    .team-member-name {
+      display: block;
+      font-size: 120%;
+    }
+  }
+
+  .teacher-bio {
+    text-align: center;
+    margin-bottom: 40px;
+   }
+
+   .tutor {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+
+     li {
+       @include clearfix;
+       margin-bottom: 10px;
+     }
+
+     .tutor-info {
+       clear: left;
+       width: 70px;
+       float: left;
+       margin-left: 3px;
+       margin-right: 15px;
+     }
+
+     .tutor-photo {
+       @include circular-photo(70px, 1px);
+       margin-bottom: 10px;
+     }
+
+     .tutor-caption {
+       text-align: center;
+     }
+   }
+
+   .source {
+     display: block;
+     font-size: 13px;
+     margin-top: 10px;
+     color: $gray5;
+   }
 }
 
 .footer {
