@@ -273,5 +273,19 @@
   }
 }
 
+.modal-contact {
+  width: 940px;
+  left: 35%;
+  min-height: 80%;
+
+  .moda-body {
+    min-height: 100%;
+  }
+  iframe {
+    width: 100%;
+    min-height: 100%;
+  }
+}
+
 .footer {
 }
