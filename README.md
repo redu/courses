@@ -1,6 +1,15 @@
 ## About
 
-This project is a front-end starter kit for Redu Courses pages.
+This project is a front-end starter kit for [Redu](http://redu.com.br) external course page. It's main purpose is to provide a initial scaffold to people who would like to sell its own courses at Redu. The front-end uses [Redu's fork](http://developers.redu.com.br/ui-components) of Twitter Bootstrap.
+
+### Dependencies
+
+- Ruby 2
+- Bundler
+- [Middleman](https://github.com/middleman/middleman)
+- [Redu's UI Components](http://developers.redu.com.br/ui-components)
+
+![snapshot](https://doc-14-0o-docs.googleusercontent.com/docs/securesc/c8q50lp7palrgn6tkprt6op63l9vhrea/0njrpcbcu65b0i4pjmshm2sffilqtgl9/1372788000000/17128520968404989744/17128520968404989744/0BzNrLdHF4h5bX2diOTRZQXZTclk?h=16653014193614665626&e=download)
 
 ## Setup
 
@@ -12,25 +21,26 @@ $ bundle exec middleman
 Visit http://0.0.0.0:4567
 
 
-## TODO
+## What need to be done?
 
 - Make layout responsive
 - Link contact form
+- Make it simple to embed payment gateway endpoint
 
-## Contribuindo
+## Contributing
 
- 1. Fork o repositório;
- 2. Utilize a branch de contribuição (`git checkout contributing`);
- 3. Crie sua branch com a modificação (`git checkout -b my-new-feature`);
- 4. Commit suas mudanças (`git commit -am 'Add some feature'`);
- 5. Push para o branch (`git push origin my-new-feature`);
- 6. Crie um pull request para a branch `contributing`.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 
 <img src="https://github.com/downloads/redu/redupy/redutech-marca.png" alt="Redu Educational Technologies" width="300">
 
 This project is maintained and funded by [Redu Educational Techologies](http://tech.redu.com.br).
 
-# Copyright
+## Copyright
 
 Copyright (c) 2012 Redu Educational Technologies
 
