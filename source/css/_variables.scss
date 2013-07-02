@@ -1,3 +1,5 @@
+@import "compass/css3/font-face";
+
 // Branco
 $white:                       rgb(255, 255, 255) !default;
 
@@ -47,6 +49,11 @@ $link-color-visited:          $blue2;
 
 // Tipografia
 // ==========================================================================
+
+@include font-face("museo-sans-rounded", font-files("MuseoSansRounded-700.otf"));
+@include font-face("museo-sans-rounded-500", font-files("MuseoSansRounded-500.otf"));
+@include font-face("museo-sans-rounded-100", font-files("MuseoSansRounded-100.otf"));
+
 
 $base-font-size:              13px !default;
 $base-line-height:            18px !default;

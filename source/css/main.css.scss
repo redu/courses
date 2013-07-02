@@ -4,16 +4,11 @@
 @import "compass/utilities/general/clearfix";
 @import "compass/typography/text/replacement";
 @import "compass/css3/text-shadow";
-@import "compass/css3/font-face";
 @import "compass/css3/images";
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 
 @import "variables";
-
-@include font-face("museo-sans-rounded", font-files("MuseoSansRounded-700.otf"));
-@include font-face("museo-sans-rounded-500", font-files("MuseoSansRounded-500.otf"));
-@include font-face("museo-sans-rounded-100", font-files("MuseoSansRounded-100.otf"));
 
 .call-container {
   background: url("../img/background.png");
