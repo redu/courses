@@ -12,6 +12,7 @@
 @import "variables";
 
 @include font-face("museo-sans-rounded", font-files("MuseoSansRounded-700.otf"));
+@include font-face("museo-sans-rounded-500", font-files("MuseoSansRounded-500.otf"));
 @include font-face("museo-sans-rounded-100", font-files("MuseoSansRounded-100.otf"));
 
 .call-container {
@@ -120,6 +121,18 @@
   }
 }
 
+.rtf {
+  h1, h2, h3, h4 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  section { margin-bottom: 40px; }
+}
+
 .sidebar {
   @mixin circular-photo($size, $border: 3px) {
     overflow: hidden;
@@ -205,6 +218,64 @@
      margin-top: 10px;
      color: $gray5;
    }
+}
+
+.schedule {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+
+  .module {
+    @include clearfix;
+    position: relative;
+    background: url("../img/blue-noise.png") repeat-y;
+    margin-bottom: 20px;
+    .borderradius & {
+      @include border-left-radius(5px);
+    }
+  }
+
+  .duration {
+    float: left;
+    color: $white;
+    font-family: $museo-sans-rounded-500;
+    font-size: 29px;
+    position: absolute;
+    top: 45%;
+    left: 10px;
+
+    .textshadow & {
+      @include single-text-shadow(0, 1px, 0, false, #b2b2b2);
+    }
+  }
+
+  .info {
+    border: 1px solid $gray4;
+    width: 538px;
+    padding: 15px 30px 15px 30px;
+    float: right;
+
+    .borderradius & {
+      @include border-right-radius(5px);
+    }
+    .cssgradients & {
+      @include background(linear-gradient($gray1 70%, $gray3));
+    }
+  }
+
+  .module-title {
+    color: $blue3;
+    font-family: $museo-sans;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .module-description {
+    color: $gray5;
+    margin: 0;
+    font-size: 13px;
+  }
 }
 
 .footer {
