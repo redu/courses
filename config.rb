@@ -52,13 +52,13 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 # Course name
-set :course_name, "Course name"
+set :course_name, "TDD 2013.1"
 
 # Contact email shown at contact modal
 set :contact_email, "example@example.com"
 
 # URL opened from a <iframe> within contact modal.
-set :contact_url, "http://example.com/contacts/new?course=#{config.course_name}"
+set :contact_url, "http://redu-courses-contact.herokuapp.com/contacts/new?course=#{config.course_name}"
 
 # Build-specific configuration
 configure :build do
