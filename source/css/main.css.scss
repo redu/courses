@@ -290,11 +290,6 @@
 
 .modal-contact {
   width: 700px;
-  height: 80%;
-
-  .modal-body {
-    position: relative;
-  }
 
   .send-us-a-message {
     padding: 10px 20px;
@@ -306,8 +301,8 @@
     width: 600px;
     margin: 0 auto;
 
-    textarea { height: 150px; }
-    .send { float: right; margin-right: 35px; }
+    .message { height: 150px; }
+    .send { float: right; margin-right: 30px; }
   }
 }
 
