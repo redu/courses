@@ -8496,15 +8496,15 @@ hr {
 
 @font-face {
   font-family: "museo-sans-rounded";
-  src: url("/fonts/MuseoSansRounded-700.otf") format('opentype'); }
+  src: url("../fonts/MuseoSansRounded-700.otf") format('opentype'); }
 
 @font-face {
   font-family: "museo-sans-rounded-500";
-  src: url("/fonts/MuseoSansRounded-500.otf") format('opentype'); }
+  src: url("../fonts/MuseoSansRounded-500.otf") format('opentype'); }
 
 @font-face {
   font-family: "museo-sans-rounded-100";
-  src: url("/fonts/MuseoSansRounded-100.otf") format('opentype'); }
+  src: url("../fonts/MuseoSansRounded-100.otf") format('opentype'); }
 
 /* line 13, /Users/guiocavalcanti/workspace/work/courses/source/css/main.css.scss */
 .call-container {
@@ -8577,7 +8577,7 @@ hr {
       text-indent: -119988px;
       overflow: hidden;
       text-align: left;
-      background-image: url("/img/pagseguro.png");
+      background-image: url("../img/pagseguro.png");
       background-repeat: no-repeat;
       background-position: 50% 50%;
       width: 123px;
