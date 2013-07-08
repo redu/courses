@@ -91,6 +91,21 @@
     }
   }
 
+  .payment-modal {
+    .modal-body {
+      height: 300px;
+      padding-top: 20px;
+
+      .product-details {
+        margin: 10px 0 15px 0;
+
+        .product-name { display: block; }
+      }
+
+      .payment-button { margin-bottom: 15px; }
+    }
+  }
+
   .video-wrapper {
     background: url("../img/video.png") no-repeat;
     background-size: auto;

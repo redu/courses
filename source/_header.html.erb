@@ -5,11 +5,13 @@
         <h1 class="course-name">TDD, desenvolvimento orientado a testes</h1>
         <em class="subtitle">Breve explicação do curso</em>
 
-        <a href="#" class="button-success button-big button-join">
+        <a href="#payment" class="button-success button-big button-join" data-toggle="modal">
           <span class="price"><span class="currency">R$ </span>259,00</span>
           <span class="join">Participar</span>
         </a>
         <span class="payment">Em até 12 vezes pelo <span class="pagseguro">PagSeguro</span></span>
+
+        <%= partial "payment_modal" %>
       </div>
 
       <div class="span5">
