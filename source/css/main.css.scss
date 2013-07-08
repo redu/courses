@@ -173,6 +173,8 @@
     @include circular-photo(135px);
     margin: 0 auto;
     margin-bottom: 20px;
+
+    img { margin-top: -20px; }
   }
 
   .team-caption {
