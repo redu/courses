@@ -1,21 +1,9 @@
 <div class="span4 sidebar">
   <h3 class="title">Equipe</h3>
   <ul>
-    <li>
-      <div class="teacher-photo"><%= image_tag "membros-guila.jpg" %></div>
-      <p class="team-caption"><a href="http://github.com/guiocavalcanti" target="_blank" class="team-member-name">Guilherme Cavalcanti</a> Instrutor</p>
-      <p class="teacher-bio">Raízes em desenvolvimento Web client-side e amante de Ruby e linguagens dinâmicas nos dias atuais. Co-fundador da empresa Redu Educational Technologies. Fascinado por sistemas distribuídos e aplicações baseadas em rede.</p>
-    </li>
-    <li>
-      <div class="teacher-photo"><%= image_tag "membros-jubs.jpg" %></div>
-      <p class="team-caption"><a href="http://github.com/julianalucena" target="_blank" class="team-member-name">Juliana Lucena</a> Instrutor</p>
-      <p class="teacher-bio">Sou encantada por linguagens de programação e pela comunidade Ruby; aos trancos e barrancos aprendi a valorizar e hoje admiro o client-side. Sócia do Redu Educational Technologies, graduei-me em Ciência da Computação pela UFPE – CIn.</p>
-    </li>
-    <li>
-      <div class="teacher-photo"><%= image_tag "membros-txi.jpg" %></div>
-      <p class="team-caption"><a href="https://github.com/fltiago" target="_blank" class="team-member-name">Tiago Ferreira Lima</a> Instrutor</p>
-      <p class="teacher-bio">Adoro Ruby, banco de dados relacionais e, agora, não-relacionais. Tenho um relacionamento de amor e ódio com desenvolvimento Web client-side. Sócio do Redu Educational Technologies e formado em Ciência da Computação pela UFPE/CIn.</p>
-    </li>
+    <% ["member_guila", "member_jubs", "member_txi"].shuffle.each do |member_infos| %>
+      <%= partial member_infos %>
+    <% end %>
   </ul>
 
   <h3 class="title">Depoimentos</h3>
