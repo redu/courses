@@ -289,16 +289,19 @@
 }
 
 .modal-contact {
-  width: 940px;
-  left: 35%;
-  min-height: 80%;
+  width: 700px;
 
-  .moda-body {
-    min-height: 100%;
+  .send-us-a-message {
+    padding: 20px 20px;
+    margin-bottom: 20px;
   }
-  iframe {
-    width: 100%;
-    min-height: 100%;
+
+  .horizontal-form {
+    display: block;
+    width: 630px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
   }
 }
 
