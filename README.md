@@ -20,6 +20,21 @@ $ bundle exec middleman
 
 Visit http://0.0.0.0:4567
 
+### Configuration
+
+You can customize some configurations editing config.rb file:
+
+```ruby
+# Course name
+# Course name
+set :course_name, "Course name"
+
+# Contact email shown at contact modal
+set :contact_email, "example@example.com"
+
+# URL opened from a <iframe> within contact modal. contact_mail is showed whenever contact_url is nil.
+set :contact_url, "http://example.com/contacts/new?course=#{config.course_name}"
+```
 
 ## What need to be done?
 

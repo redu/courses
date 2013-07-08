@@ -292,17 +292,16 @@
   width: 700px;
 
   .send-us-a-message {
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin-bottom: 20px;
-
   }
 
   .horizontal-form {
-    width: 600px;
+    display: block;
+    width: 630px;
+    height: 500px;
     margin: 0 auto;
-
-    .message { height: 150px; }
-    .send { float: right; margin-right: 30px; }
+    overflow: hidden;
   }
 }
 
