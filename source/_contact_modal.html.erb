@@ -1,8 +1,21 @@
-<div id="contact" class="modal hide modal-fill-height modal-contact">
-  <div class="modal-header">
-    <h3 class="modal-title">Fale conosco</h3>
+<div id="contact" class="modal hide modal-fill-horizontal modal-contact">
+  <div class="modal-header modal-header-gray">
+      <h3>Fale consco</h3>
   </div>
   <div class="modal-body">
-    <iframe src="http://www.redu.com.br/contato?whitelabel=true" frameborder="0"></iframe>
+    <div class="send-us-a-message">
+      <p>Para tirar dúvidas a respeito do curso, preencha o formulário abaixo com suas informações de contato. Entraremos em contato por telefone ou email em até <strong>um dia útil</strong>.</p>
+      <% unless config.contact_url %>
+      <p>
+        Clique <%= link_to "aqui", "mailto:#{config.contact_email}" %> para tirar dúvida a respeito do curso.
+      </p>
+      <% end %>
+    </div>
+    <% if config.contact_url %>
+      <iframe src="<%= config.contact_url %>" frameborder="0" class="horizontal-form"></iframe>
+    <% end %>
+  </div>
+  <div class="modal-footer">
+    <button data-dismiss="modal" class="button-primary">Fechar</button>
   </div>
 </div>
