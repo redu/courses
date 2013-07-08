@@ -1,6 +1,6 @@
 ## About
 
-This project is a front-end starter kit for [Redu](http://redu.com.br) external course page. It's main purpose is to provide a initial scaffold to people who would like to sell its own courses at Redu. The front-end uses [Redu's fork](http://developers.redu.com.br/ui-components) of Twitter Bootstrap.
+Holds Redu external courses' pages. It's a fork of [Redu's courses starter kit](https://github.com/redu/courses-starter-kit).
 
 ### Dependencies
 
@@ -20,13 +20,6 @@ $ bundle exec middleman
 
 Visit http://0.0.0.0:4567
 
-
-## What need to be done?
-
-- Make layout responsive
-- Link contact form
-- Make it simple to embed payment gateway endpoint
-
 ## Contributing
 
 1. Fork it
@@ -42,7 +35,7 @@ This project is maintained and funded by [Redu Educational Techologies](http://t
 
 ## Copyright
 
-Copyright (c) 2012 Redu Educational Technologies
+Copyright (c) 2013 Redu Educational Technologies
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
