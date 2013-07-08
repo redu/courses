@@ -51,6 +51,9 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
+activate :relative_assets
+set :relative_links, true
+
 # Course name
 set :course_name, "TDD 2013.1"
 
