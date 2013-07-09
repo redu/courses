@@ -10,6 +10,14 @@
 
 @import "variables";
 
+.nav-global-button-dropdown {
+  .button-dropdown-name {
+    display: block;
+    float: left;
+    margin-right: 10px;
+  }
+}
+
 .call-container {
   background: url("../img/background.png");
   background-size: auto 100%;

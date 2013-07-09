@@ -7,6 +7,27 @@
         <a class="nav-global-button" href="#contact" title="Entre em contato conosco" data-toggle="modal">Contato</a>
         <!-- END -->
       </div>
+      <div class="nav-global-right-area">
+        <div class="nav-global-buttons-dropdown button-toolbar">
+          <div class="button-group">
+            <button class="button-default nav-global-button-dropdown dropdown-toggle" data-toggle="dropdown">
+              <span class="button-dropdown-name">Mais cursos</span>
+              <span class="button-dropdown-arrow icon-arrow-down-gray_8_10 text-replacement">Expandir</span>
+            </button>
+            <span class="dropdown-arrow icon-arrow-up-dropdown-lightblue_20_8 text-replacement">Seta</span>
+            <div class="dropdown-menu nav-global-profile-dropdown">
+              <span class="nav-global-profile-header">Cursos disponíveis</span>
+              <ul class="nav-global-profile-items">
+                <li class="nav-global-profile-item">
+                  <%= link_to "TDD, desenvolvimento orientado a testes", "/", title: "TDD, desenvolvimento orientado a testes", class: "nav-global-profile-item-link" %>
+                </li>
+                <li class="nav-global-profile-item">
+                  <%= link_to "<em>Framework</em> Scrum".html_safe, "/", title: "Framework Scrum", class: "nav-global-profile-item-link" %>
+                </li>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
