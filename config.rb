@@ -63,6 +63,8 @@ set :contact_email, "example@example.com"
 # URL opened from a <iframe> within contact modal.
 set :contact_url, "http://redu-courses-contact.herokuapp.com/contacts/new?course=#{config.course_name}"
 
+activate :directory_indexes
+
 # Build-specific configuration
 configure :build do
 
