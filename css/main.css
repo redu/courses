@@ -8506,6 +8506,12 @@ hr {
   font-family: "museo-sans-rounded-100";
   src: url("../fonts/MuseoSansRounded-100.otf") format('opentype'); }
 
+/* line 14, /Users/julianalucena/dev/work/courses/source/css/main.css.scss */
+.nav-global-button-dropdown .button-dropdown-name {
+  display: block;
+  float: left;
+  margin-right: 10px; }
+
 /* line 13, /Users/julianalucena/dev/work/courses/source/css/main.css.scss */
 .call-container {
   background: url("../img/background.png");
