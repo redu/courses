@@ -129,6 +129,31 @@
   .cssgradients & {
     @include background(linear-gradient($green5 80%, $green4));
   }
+
+  .fb-wrapper {
+    overflow: hidden;
+    height: 40px;
+
+    .fb-faces {
+      position: relative;
+      top: -25px;
+
+      width: 1120px !important;
+    }
+
+    .like-button {
+      position: relative;
+      top: -40px;
+
+      width: 81px !important;
+    }
+  }
+
+  .fb-like-button-wrapper {
+    float: left;
+    margin-top: 10px;
+    height: 25px;
+  }
 }
 
 .rtf {
