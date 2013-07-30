@@ -34,7 +34,7 @@
     text-align: center;
   }
 
-  .course-name, .subtitle {
+  .course-name, .subtitle, .period {
     color: $white;
     font-style: normal;
     line-height: 95%;
@@ -54,6 +54,15 @@
     font-family: museo-sans-rounded-100, museo-sans, "Helvetica Neue", Arial, sans-serif;
     font-weight: 100;
     font-size: 31px;
+  }
+
+  .period {
+    font-family: museo-sans-rounded-100, museo-sans, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+
+    display: block;
+    margin-top: 10px;
   }
 
   .button-join {
