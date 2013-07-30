@@ -1,0 +1,37 @@
+<div id="payment" class="modal hide payment-modal modal-fill-height">
+  <div class="modal-header modal-header-gray">
+    <h3 class="modal-title">Participar do Curso</h3>
+  </div>
+  <div class="modal-body">
+    <p>Para participar do curso, é necessário efetuar o pagamento antes. Isto pode ser feito através do PagSeguro. Ao clicar no botão abaixo, você será redirecionado ao PagSeguro e poderá efetuar o pagamento em várias formas e condições.</p>
+
+    <table class="product-details table-without-borderradius">
+      <thead>
+        <tr>
+          <th>Descrição</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="product-name">Curso online sobre Desenvolvimento Orientado a Testes</span>
+            <span class="legend">28h – 01/01/13 a 31/01/13 – TDD, Ruby, RSpec</span>
+          </td>
+          <td>R$ 225</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="payment-button">
+      <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+      <form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+        <input type="hidden" name="code" value="F5D6B28E20200A2664B11FA81E23CC38" />
+        <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+      </form>
+      <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+    </div>
+    <p>Após o pagamento, você receberá um email de confirmação dos intrutores e será adicionado ao Ambiente de Aprendizagem onde o curso ocorrerá.</p>
+  </div>
+</div>
