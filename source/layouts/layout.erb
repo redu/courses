@@ -24,6 +24,7 @@
 
         <%= partial "header", locals: { title: current_page.data.title,
                                         subtitle: current_page.data.subtitle || "",
+                                        price: current_page.data.price,
                                         video_id: current_page.data.video_id } %>
         <%= partial "recommendations" %>
 
