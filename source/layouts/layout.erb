@@ -23,7 +23,8 @@
         <![endif]-->
 
         <%= partial "header", locals: { title: current_page.data.title,
-                                        subtitle: current_page.data.subtitle || ""} %>
+                                        subtitle: current_page.data.subtitle || "",
+                                        video_id: current_page.data.video_id } %>
         <%= partial "recommendations" %>
 
         <div class="container">
