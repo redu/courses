@@ -8661,13 +8661,17 @@ hr {
 .rtf h1, .rtf h2, .rtf h3, .rtf h4 {
   margin-bottom: 30px; }
 /* line 181, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+.rtf h3 {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+/* line 186, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .rtf p {
   margin: 10px 0; }
-/* line 185, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 190, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .rtf section {
   margin-bottom: 40px; }
 
-/* line 204, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 209, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .title {
   text-shadow: 0 1px 0 #b2b2b2;
   font-family: museo-sans-rounded-100, museo-sans, "Helvetica Neue", Arial, sans-serif;
@@ -8676,7 +8680,7 @@ hr {
   padding-bottom: 15px;
   margin-bottom: 20px;
   color: #e6e6e6; }
-/* line 214, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 219, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .teacher-photo {
   overflow: hidden;
   width: 135px;
@@ -8684,22 +8688,22 @@ hr {
   border: 3px solid white;
   margin: 0 auto;
   margin-bottom: 20px; }
-  /* line 195, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 200, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .boxshadow .sidebar .teacher-photo {
     -webkit-box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2); }
-  /* line 199, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 204, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .borderradius .sidebar .teacher-photo {
     -webkit-border-radius: 67.5px;
     -moz-border-radius: 67.5px;
     -ms-border-radius: 67.5px;
     -o-border-radius: 67.5px;
     border-radius: 67.5px; }
-  /* line 219, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 224, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .teacher-photo img {
     margin-top: -20px; }
-/* line 222, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 227, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .team-caption {
   text-align: center;
   color: #b3b3b3;
@@ -8707,73 +8711,73 @@ hr {
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 20px; }
-  /* line 230, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 235, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .team-caption .team-member-name {
     display: block;
     font-size: 120%; }
-/* line 236, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 241, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .teacher-bio {
   text-align: center;
   margin-bottom: 40px; }
-/* line 241, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 246, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .tutor {
   list-style: none;
   margin: 0;
   padding: 0; }
-  /* line 246, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 251, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .tutor li {
     overflow: hidden;
     *zoom: 1;
     margin-bottom: 10px; }
-  /* line 251, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 256, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .tutor .tutor-info {
     clear: left;
     width: 70px;
     float: left;
     margin-left: 3px;
     margin-right: 15px; }
-  /* line 259, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 264, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .tutor .tutor-photo {
     overflow: hidden;
     width: 70px;
     height: 70px;
     border: 1px solid white;
     margin-bottom: 10px; }
-    /* line 195, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 200, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .boxshadow .sidebar .tutor .tutor-photo {
       -webkit-box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
       box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2); }
-    /* line 199, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 204, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .borderradius .sidebar .tutor .tutor-photo {
       -webkit-border-radius: 35px;
       -moz-border-radius: 35px;
       -ms-border-radius: 35px;
       -o-border-radius: 35px;
       border-radius: 35px; }
-  /* line 264, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 269, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .sidebar .tutor .tutor-caption {
     text-align: center; }
-/* line 269, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 274, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .sidebar .source {
   display: block;
   font-size: 13px;
   margin-top: 10px;
   color: #b3b3b3; }
 
-/* line 277, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 282, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .schedule {
   list-style-type: none;
   margin: 0;
   margin-top: 20px; }
-  /* line 282, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 287, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .schedule .module {
     overflow: hidden;
     *zoom: 1;
     position: relative;
     background: url("../img/blue-noise.png") repeat-y;
     margin-bottom: 20px; }
-    /* line 287, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 292, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .borderradius .schedule .module {
       -moz-border-radius-topleft: 5px;
       -webkit-border-top-left-radius: 5px;
@@ -8781,7 +8785,7 @@ hr {
       -moz-border-radius-bottomleft: 5px;
       -webkit-border-bottom-left-radius: 5px;
       border-bottom-left-radius: 5px; }
-  /* line 292, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 297, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .schedule .duration {
     float: left;
     color: white;
@@ -8790,16 +8794,16 @@ hr {
     position: absolute;
     top: 45%;
     left: 10px; }
-    /* line 301, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 306, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .textshadow .schedule .duration {
       text-shadow: 0 1px 0 #b2b2b2; }
-  /* line 306, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 311, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .schedule .info {
     border: 1px solid #cccccc;
     width: 538px;
     padding: 15px 30px 15px 30px;
     float: right; }
-    /* line 312, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 317, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .borderradius .schedule .info {
       -moz-border-radius-topright: 5px;
       -webkit-border-top-right-radius: 5px;
@@ -8807,34 +8811,35 @@ hr {
       -moz-border-radius-bottomright: 5px;
       -webkit-border-bottom-right-radius: 5px;
       border-bottom-right-radius: 5px; }
-    /* line 315, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+    /* line 320, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
     .cssgradients .schedule .info {
       background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(70%, #f7f7f7), color-stop(100%, #e6e6e6));
       background: -webkit-linear-gradient(#f7f7f7 70%, #e6e6e6);
       background: -moz-linear-gradient(#f7f7f7 70%, #e6e6e6);
       background: -o-linear-gradient(#f7f7f7 70%, #e6e6e6);
       background: linear-gradient(#f7f7f7 70%, #e6e6e6); }
-  /* line 320, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 325, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .schedule .module-title {
     color: #4dadd6;
     font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
+    margin-top: 0;
     margin-bottom: 10px; }
-  /* line 328, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 334, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .schedule .module-description {
     color: #b3b3b3;
     margin: 0;
     font-size: 13px; }
 
-/* line 335, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 341, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .modal-contact {
   width: 700px; }
-  /* line 338, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 344, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .modal-contact .send-us-a-message {
     padding: 20px 20px;
     margin-bottom: 20px; }
-  /* line 343, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 349, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .modal-contact .horizontal-form {
     display: block;
     width: 630px;
@@ -8842,9 +8847,9 @@ hr {
     margin: 0 auto;
     overflow: hidden; }
 
-/* line 352, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+/* line 358, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
 .footer-navigation {
   margin-top: 40px; }
-  /* line 355, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
+  /* line 361, /Users/fltiago/dev/work/courses/source/css/main.css.scss */
   .footer-navigation li {
     margin-bottom: 10px; }
